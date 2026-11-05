@@ -1,0 +1,58 @@
+[
+    {
+        "id": "P001",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 16,
+        "transaction_history": [
+            15,
+            1
+        ],
+        "type": "physical",
+        "weight": 2.1
+    },
+    {
+        "id": "P002",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 40,
+        "transaction_history": [
+            40
+        ],
+        "type": "physical",
+        "weight": 0.1
+    },
+    {
+        "id": "P003",
+        "name": "Guitar",
+        "price": 450.0,
+        "stock": 5,
+        "transaction_history": [
+            5
+        ],
+        "type": "physical",
+        "weight": 3.5
+    },
+    {
+        "id": "D001",
+        "name": "Operating System",
+        "price": 199.0,
+        "stock": 100,
+        "transaction_history": [
+            100
+        ],
+        "type": "digital",
+        "download_size": 5200.0
+    },
+    {
+        "id": "D002",
+        "name": "Photo Editor",
+        "price": 79.9,
+        "stock": 50,
+        "transaction_history": [
+            50
+        ],
+        "type": "digital",
+        "download_size": 850.0
+    }
+]
