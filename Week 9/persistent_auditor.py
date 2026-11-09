@@ -1,9 +1,12 @@
+from pathlib import Path
+
 from can_be_shipped import CanBeShipped
 from digital_product import DigitalProduct
 from inventory_file import InventoryFile
 from physical_product import PhysicalProduct
 
-INVENTORY_FILE = "inventory.json"
+# Keep inventory.json next to this script, whichever folder it is run from
+INVENTORY_FILE = Path(__file__).resolve().parent / "inventory.json"
 LINE = "-" * 48
 
 
